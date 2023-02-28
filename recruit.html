@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RECRUIT - 採用情報｜PON DESIGN</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/41b1f8d62e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="swiper/swiper-bundle.min.css">
+    <link rel="icon" href="/static/img/favicon.png">
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="header">
+            <a href="index.html"><img src="/static/img/パス 10.png"></a>
+            <nav>
+                <ul class="header-ul">
+                    <li class="header-li"><a href="news.html" class="header-a">NEWS</a></li>
+                    <li class="header-li"><a href="service.html" class="header-a">SERVICE</a></li>
+                    <li class="header-li"><a href="works.html" class="header-a">WORKS</a></li>
+                    <li class="header-li"><a href="company.html" class="header-a">COMPANY</a></li>
+                    <li class="header-li"><a href="recruit.html" class="header-a">RECRUIT</a></li>
+                    <li class="header-li"><a href="contact.html" class="header-a">CONTACT</a></li>
+                </ul>
+            </nav>
+
+            <nav class="sp-nav">
+                <ul>
+                    <li class="header-li"><a href="news.html" class="header-a">NEWS</a></li>
+                    <li class="header-li"><a href="service.html" class="header-a">SERVICE</a></li>
+                    <li class="header-li"><a href="works.html" class="header-a">WORKS</a></li>
+                    <li class="header-li"><a href="company.html" class="header-a">COMPANY</a></li>
+                    <li class="header-li"><a href="recruit.html" class="header-a">RECRUIT</a></li>
+                    <li class="header-li"><a href="contact.html" class="header-a">CONTACT</a></li>
+                </ul>
+            </nav>
+
+            <div id="hamburger" class="btn03">
+                <div class="stick stick-1"></div>
+                <div class="stick stick-2"></div>
+                <div class="stick stick-3"></div>
+            </div>
+        </div>
+    </header>
+    <div class="sub-visual"></div>
+    <div class="page-item">
+        <h1 class="page-title">RECRUIT</h1>
+        <p class="page-str">採用情報</p>
+    </div>
+
+    <div class="nav-list">
+        <div class="container">
+            <ul class="nav-list-ul">
+                <li class="nav-list-li"><a href="index.html">HOME</a></li>
+                <li class="nav-list-li">></li>
+                <li class="nav-list-li">RECRUIT</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="recruit-bg">
+        <div class="container">
+            <div class="recruit-top">
+                <h1 class="recruit-title">Enjoy Creation for Client</h1>
+                <h3 class="recruit-subtitle">楽しむ心が良いモノを生む</h3>
+                <p class="recruit-str">心を弾ましながら<br>夢いっぱいのサイトを作ろう！<br>お客様も自分もみんなが幸せになれるように</p>
+            </div>
+        </div>
+
+        <img src="/static/img/pexels-ketut-subiyanto-4350210.png" class="recruit-img">
+
+        <div class="recruit-cont">
+            <h1 class="sec-title center">募集中の職種</h1>
+            <div class="recruit-box container">
+                <p class="recruit-box-title center">Webデザイナー</p>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>雇用形態</th>
+                            <td>正社員</td>
+                        </tr>
+                        <tr>
+                            <th>給与</th>
+                            <td>400万円〜600万円（経験・能力を考慮のうえ優遇）</td>
+                        </tr>
+                        <tr>
+                            <th>仕事内容</th>
+                            <td>Webサイトの制作。サイトのデザインとコーディングを担当していただきます。</td>
+                        </tr>
+                        <tr>
+                            <th>勤務時間</th>
+                            <td>10:00 〜 19:00（実働8時間、休憩1時間）</td>
+                        </tr>
+                        <tr>
+                            <th>応募資格</th>
+                            <td>
+                                PhotoshopやXDなどのデザインツールの使い方を理解し、コーディングの基礎スキルがある方。<br>実務未経験でも学校や独学で学習した方を歓迎します。
+                                <ul class="recruit-ul">
+                                    <li class="recruit-li">デザインやコーディングを楽しめる方</li>
+                                    <li class="recruit-li">常にアンテナを張って積極的にトレンドや最新の技術を取り入れる方</li>
+                                    <li class="recruit-li">お客様と一緒に楽しみながら高い目的を目指せる方</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="service-btn-cont">
+                    <a href="{% url 'main:recruit' %}" class="service-btn">応募する</a>
+                    <p class="recruit-btn-str">求人サイトへ遷移します</p>
+                </div>
+            </div>
+            <div class="movie-cont container">
+                <h1 class="sec-title center">社内ムービー</h1>
+                <div class="movie">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/RO_RRKTYzUY"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="contact">
+        <div class="contact-box">
+            <h1 class="sec-title">CONTACT</h1>
+            <p class="sec-subtitle">お問い合わせ</p>
+            <p class="recruit-str">Webサイトの制作のご依頼やお見積りなど、<br class="sp-br">お気軽にご相談ください。</p>
+            <div class="service-btn-cont">
+                <a href="contact.html" class="service-btn">MORE</a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="footer">
+            <nav>
+                <ul class="footer-ul">
+                    <li class="footer-li"><a href="index.html" class="footer-a">HOME</a></li>
+                    <li class="footer-li"><a href="news.html" class="footer-a">NEWS</a></li>
+                    <li class="footer-li"><a href="service.html" class="footer-a">SERVICE</a></li>
+                    <li class="footer-li"><a href="works.html" class="footer-a">WORKS</a></li>
+                    <li class="footer-li"><a href="company.html" class="footer-a">COMPANY</a></li>
+                    <li class="footer-li"><a href="recruit.html" class="footer-a">RECRUIT</a></li>
+                    <li class="footer-li"><a href="contact.html" class="footer-a">CONTACT</a></li>
+                </ul>
+            </nav>
+            <p class="footer-logo">©PON DESIGN</p>
+        </div>
+    </footer>
+
+    <div id="page_top"><a href="#"></a></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
